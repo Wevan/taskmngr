@@ -1,0 +1,17 @@
+language: node_js
+node_js:
+  - 8.10.0
+
+before_script:
+  - npm install -g firebase-tools
+  - npm install -g @angular/cli
+
+script:
+  - ng build --prod
+
+
+cache:
+  directories:
+    - $HOME/.npm
+
+
