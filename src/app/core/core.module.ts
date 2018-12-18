@@ -3,7 +3,7 @@ import {HeaderComponent} from './header/header.component';
 import {FooterComponent} from './footer/footer.component';
 import {SidebarComponent} from './sidebar/sidebar.component';
 import {HttpClientModule} from '@angular/common/http';
-import {ShareModule} from '../share/share.module';
+// import {ShareModule} from '../share/share.module';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 
